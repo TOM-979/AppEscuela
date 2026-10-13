@@ -1,0 +1,10 @@
+.footer-escuela{
+  background-color: var(--colorTexto);
+  color: var(--colorSecundario);
+  font-size: .9rem;
+  padding: 1rem 0;
+}
+
+.footer-escuela strong{
+  color: #fff;
+}

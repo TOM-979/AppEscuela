@@ -1,14 +1,25 @@
 :root{
-  --colorPrimario: #ec111a;
+  --colorPrimario: #0a39e4;
+  --colorCeleste: #38b6ff;
   --colorSecundario: #b2b2b2;
+  --colorTexto: #1f2430;
 }
 
 body{
   background-color: #f2f2f2;
+  color: var(--colorTexto);
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
+}
+
+/* El footer queda siempre al fondo aunque haya poco contenido */
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

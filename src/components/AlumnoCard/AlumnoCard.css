@@ -1,0 +1,43 @@
+.alumno-card{
+  border: none;
+  border-top: 4px solid var(--colorPrimario);
+  border-radius: .75rem;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.alumno-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 .75rem 1.5rem rgba(0, 0, 0, .12) !important;
+}
+
+.alumno-card.inactivo{
+  border-top-color: var(--colorSecundario);
+}
+
+.alumno-avatar{
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--colorPrimario), var(--colorCeleste));
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .85rem;
+}
+
+.alumno-card.inactivo .alumno-avatar{
+  background: var(--colorSecundario);
+}
+
+.alumno-card .card-title{
+  font-weight: 600;
+  margin-bottom: .15rem;
+}
+
+.alumno-card hr{
+  margin: 1rem 0;
+  opacity: .12;
+}

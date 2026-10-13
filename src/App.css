@@ -1,0 +1,19 @@
+.contenido{
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+.encabezado{
+  border-left: 5px solid var(--colorPrimario);
+  padding-left: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.encabezado h2{
+  font-weight: 700;
+  margin-bottom: .25rem;
+}
+
+.encabezado p{
+  color: #6c757d;
+}
