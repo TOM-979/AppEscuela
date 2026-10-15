@@ -13,7 +13,7 @@
   height: 5px;
   background: linear-gradient(90deg, #1e3a8a, #3b82f6);
 }
-
+/* Franja de color superior */
 .alumno-card:hover {
   transform: translateY(-8px);
   border-color: #bfdbfe;
